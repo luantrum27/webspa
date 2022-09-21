@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 import styles from '../Navbar.module.scss'
 import { Logo } from '../../../assets/img';
 import { Link } from 'react-router-dom';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import { RiArrowDownSLine } from 'react-icons/ri'
 
 const cx = classNames.bind(styles);
 function NavbarCategories() {
@@ -17,19 +17,19 @@ function NavbarCategories() {
             <li className={cx('navbar__bottom--categoriesItem')}>
                 <Link to='/introduce'>
                     Giới thiệu
-                    <KeyboardArrowDownIcon />
+                    <RiArrowDownSLine />
                 </Link>
             </li>
             <li className={cx('navbar__bottom--categoriesItem')}>
                 <Link to='/service'>
                     Dịch vụ
-                    <KeyboardArrowDownIcon />
+                    <RiArrowDownSLine />
                 </Link>
             </li>
             <li className={cx('navbar__bottom--categoriesItem')}>
                 <Link to='/news'>
                     Tin tức
-                    <KeyboardArrowDownIcon />
+                    <RiArrowDownSLine />
                 </Link>
             </li>
             <li className={cx('navbar__bottom--categoriesItem')}>

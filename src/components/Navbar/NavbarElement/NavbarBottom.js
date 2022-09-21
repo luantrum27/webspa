@@ -2,8 +2,6 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import styles from '../Navbar.module.scss';
 import { Link } from 'react-router-dom';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-
 import { Logo } from '../../../assets/img';
 import NavbarCategories from '../NavbarCategories';
 

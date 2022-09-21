@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './Card.module.scss'
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const cx = classNames.bind(styles);
 
@@ -18,7 +18,7 @@ function CardTag({ image, title, content }) {
                 {content}
             </p>
             <div className={cx(['cardTag__btnSeeMore', 'paddingCard'])}>
-                Xem thêm <ArrowForwardIcon />
+                Xem thêm <AiOutlineArrowRight />
             </div>
         </div>
     )
