@@ -8,6 +8,7 @@ import CardList from '../../components/CardList'
 import BannerItem from '../../components/Banner/BannerItem'
 import { Banner, Icon3 } from '../../assets/img'
 import BannerList from '../../components/Banner'
+import Footer from '../../components/Footer/Footer'
 
 const cx = classNames.bind(styles)
 
@@ -19,6 +20,7 @@ function HomePage() {
         <Home />
         <CardList />
         <BannerList />
+        <Footer/>
     </div>
   )
 }
